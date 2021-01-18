@@ -19,7 +19,6 @@ class Drops{
         circle(pos.x, pos.y, this.r);
         ellipseMode(RADIUS);
         pop();
-        //update();
     }
     update(){
         var pos = this.body.position;

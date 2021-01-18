@@ -9,7 +9,6 @@ var thunderImg, thunder;
 var thunder1, thunder2, thunder3, thunder4;
 
 function preload(){
-  //thunderImg = loadAnimation("images/1.png", "images/2.png", "images/3.png", "images/4.png");
   thunder1 = loadImage("images/1.png");
   thunder2 = loadImage("images/2.png");
   thunder3 = loadImage("images/3.png");
@@ -29,8 +28,8 @@ function setup(){
   }
 
   thunder = createSprite(250, 100);
-  //thunder.addAnimation("thunder", thunderImg);
-  //thunder.scale = 0.35;
+  thunder.addImage(thunder1);
+  thunder.scale = 0.30;
 }
 
 function draw(){
