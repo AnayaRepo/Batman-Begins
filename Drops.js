@@ -14,7 +14,7 @@ class Drops{
     display(){
         var pos = this.body.position;
         push();
-        fill("#004280");
+        fill("#070070");
         translate(0, 0);
         circle(pos.x, pos.y, this.r);
         ellipseMode(RADIUS);
