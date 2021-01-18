@@ -45,7 +45,7 @@ function draw(){
     drops[i].update();
   }
 
-  if(frameCount%30===0){
+  if(frameCount%50===0){
     var num = Math.round(random(1,4));
     switch(num){
       case 1: thunder.addImage(thunder1);thunder.scale = 0.30;
