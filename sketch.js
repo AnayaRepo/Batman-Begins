@@ -24,7 +24,7 @@ function setup(){
   boy = new Umbrella(250, 410, 130, 320);
 
   for(var i=0; i<maxDrops; i++){
-    drops.push(new Drops(random(0, 400), random(0, 400), 10));
+    drops.push(new Drops(random(0, 400), random(0, 400), 7));
   }
 
   thunder = createSprite(250, 100);
